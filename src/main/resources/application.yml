@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: zuuldemo
+
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+
+  routes:
+    publisherdemo:
+        path: /publisherdemo/**
+        serviceId: publisherdemo
+        stripPrefix: true
+security:
+  basic:
+    enabled: false
+#apicenter-service:
+#  ribbon:
+#    listOfServers: localhost:8086

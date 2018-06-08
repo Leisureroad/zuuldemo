@@ -1,0 +1,6 @@
+applications:
+- name: zuuldemo
+  memory: 1G
+  routes:
+  - route: zuuldemo.pcfbeta.io
+  path: target/zuuldemo-0.0.1-SNAPSHOT.jar
