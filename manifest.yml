@@ -4,3 +4,7 @@ applications:
   routes:
   - route: zuuldemo.pcfbeta.io
   path: target/zuuldemo-0.0.1-SNAPSHOT.jar
+  services:
+  - eureka-demo
+#  env:
+#    JBP_LOG_LEVEL: DEBUG
