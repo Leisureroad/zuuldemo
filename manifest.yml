@@ -2,7 +2,7 @@ applications:
 - name: zuuldemo
   memory: 1G
   routes:
-  - route: zuuldemo.pcfbeta.io
+  - route: zuuldemo.pcfdemo.com
   path: target/zuuldemo-0.0.1-SNAPSHOT.jar
   services:
   - eureka-demo
